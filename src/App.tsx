@@ -4,6 +4,7 @@ import './App.css';
 import Customer from './components/Customer';
 import Employee from './components/Employee';
 import Counter from './components/Counter';
+import MedalProvider from './components/MedalProvider';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Customer name="John" age={26} title="Frontend Developer"/>
       <Employee name="Tim" age={38} title="CEO"/>
       <Counter></Counter>
+      <MedalProvider name="Tom"/>
     </React.Fragment>
   );
 }

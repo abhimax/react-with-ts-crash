@@ -30,7 +30,7 @@ let decrement = ():void => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
-                        <div className="card">
+                        <div className="card m-1">
                             <div className="card-body">
                                 <p className="h3">{state.count}</p>
                                 <button className="btn btn-success m-1" onClick={increment}>Increment</button>

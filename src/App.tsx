@@ -5,6 +5,7 @@ import Customer from './components/Customer';
 import Employee from './components/Employee';
 import Counter from './components/Counter';
 import MedalProvider from './components/MedalProvider';
+import LoginForm from './components/LoginForm';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Employee name="Tim" age={38} title="CEO"/>
       <Counter></Counter>
       <MedalProvider name="Tom"/>
+      <br/>
+      <LoginForm/>
     </React.Fragment>
   );
 }

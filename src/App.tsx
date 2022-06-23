@@ -6,18 +6,21 @@ import Employee from './components/Employee';
 import Counter from './components/Counter';
 import MedalProvider from './components/MedalProvider';
 import LoginForm from './components/LoginForm';
+import UserList from './components/UserList';
 
 function App() {
   return (
     <React.Fragment>
-      <h1 className="text-warning">Test</h1>
-      <i className="fa fa-home fa-2x"></i>
+      <h1 className="text-warning m-1"> <i className="fa fa-home"></i>Play React TS</h1>
+     
       <Customer name="John" age={26} title="Frontend Developer"/>
       <Employee name="Tim" age={38} title="CEO"/>
       <Counter></Counter>
       <MedalProvider name="Tom"/>
       <br/>
       <LoginForm/>
+      <br/>
+      <UserList/>
     </React.Fragment>
   );
 }

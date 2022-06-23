@@ -34,7 +34,7 @@ return(
     <React.Fragment>
         <div className="container">
             <div className="row">
-                <div className="col-md-4">
+                <div className="col">
                     <div className="card">
                         <div className="card-header text-center bg-primary text-white">
                             <p className="h4">Login here</p>

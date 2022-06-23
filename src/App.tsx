@@ -10,18 +10,38 @@ import UserList from './components/UserList';
 
 function App() {
   return (
-    <React.Fragment>
-      <h1 className="text-warning m-1"> <i className="fa fa-home"></i>Play React TS</h1>
-     
-      <Customer name="John" age={26} title="Frontend Developer"/>
-      <Employee name="Tim" age={38} title="CEO"/>
-      <Counter></Counter>
-      <MedalProvider name="Tom"/>
-      <br/>
-      <LoginForm/>
-      <br/>
-      <UserList/>
-    </React.Fragment>
+    <div className="container">
+      <div className="row">
+        <h1 className="text-warning m-1"> <i className="fa fa-home"></i>Play React TS</h1>
+      </div>
+
+      <div className="row">
+        <div className="col col-md-4">
+          <Customer name="John" age={26} title="Frontend Developer" />
+        </div>
+        <div className="col col-md-4">
+          <Employee name="Tim" age={38} title="CEO" />
+        </div>
+
+        <div className="col col-md-4">
+          <Counter></Counter>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col col-md-4">
+          <MedalProvider name="Tom" />
+        </div>
+        <div className="col col-md-4">
+          <LoginForm />
+        </div>
+      </div>
+      
+      <div className="row">
+        <UserList />
+      </div>
+
+    </div>
   );
 }
 

@@ -29,7 +29,7 @@ let decrement = ():void => {
         <React.Fragment>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col">
                         <div className="card m-1">
                             <div className="card-body">
                                 <p className="h3">{state.count}</p>

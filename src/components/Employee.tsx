@@ -17,8 +17,10 @@ let Employee: React.FC<IProps> = ({ name, age, title }) => {
         medal: "Gold",
     });
     return (
-        <React.Fragment>
-            <div className="card text-bg-secondary mb-3 m-1">
+        <div className="container">
+            <div className="row">
+                <div className="col">
+                <div className="card text-bg-secondary mb-3">
                 <div className="card-header">{title}</div>
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
@@ -29,8 +31,11 @@ let Employee: React.FC<IProps> = ({ name, age, title }) => {
                     </ul>
                 </div>
             </div>
+                </div>
+            </div>
 
-        </React.Fragment>
+
+        </div>
     )
 };
 export default Employee;
